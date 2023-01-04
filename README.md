@@ -47,6 +47,7 @@ A game hub with tictactoe and numerical tictactoe with a GUI and terminal versio
 ### Built With
 * [![Js][Js]][Js-url]
 * [![Junit][Junit]][Junit-url]
+* [![Gradle][Gradle]][Gradle-url]
 
 ### Description
 
@@ -193,5 +194,7 @@ Keep a log of what things you accomplish when.  You can use git's tagging featur
 [Js-url]: https://docs.oracle.com/en/java/
 [Junit]: https://img.shields.io/badge/Junit5-25A162?style=for-the-badge&logo=junit5&logoColor=white
 [Junit-url]: https://junit.org/junit5/docs/current/user-guide/
+[Gradle]: https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white
+[Gradle-url]: https://docs.gradle.org/current/userguide/userguide.html
 
 
