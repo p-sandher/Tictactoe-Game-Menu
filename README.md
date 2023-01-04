@@ -88,18 +88,17 @@ All classes use exceptions, encapsulation,inheritance,interfaces, constructors, 
 ### Dependencies
 
 Java Libraries Used: 
-    Java Swing libraries
-    import java.io.File;
-    import java.util.Iterator;
-    import java.lang.String;
-    import java.util.Collections;
-    import java.util.ArrayList;
-    import java.util.Scanner;
-    import java.io.IOException;
-    import java.nio.file.FileSystems;
-    import java.nio.file.Files;
-    import java.nio.file.Path;
-
+    Java Swing libraries<br />
+    import java.io.File;<br />
+    import java.util.Iterator;<br />
+    import java.lang.String;<br />
+    import java.util.Collections;<br />
+    import java.util.ArrayList;<br />
+    import java.util.Scanner;<br />
+    import java.io.IOException;<br />
+    import java.nio.file.FileSystems;<br />
+    import java.nio.file.Files;<br />
+    import java.nio.file.Path;<br />
 
 The program uses Gradle to build and run the program.
 
@@ -188,7 +187,8 @@ Keep a log of what things you accomplish when.  You can use git's tagging featur
 
 
 
-
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/puneet-sandher/
 [Js]: https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
 [Js-url]: https://docs.oracle.com/en/java/
 [Junit]: https://img.shields.io/badge/Junit5-25A162?style=for-the-badge&logo=junit5&logoColor=white
