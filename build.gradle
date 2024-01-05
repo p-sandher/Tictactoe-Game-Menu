@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
+
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+jar {
+    manifest {
+        attributes 'Main-Class': 'game.GameUI'
+    }
+    
+    
+}
+
+
+//change the name of the class that is run on line 16 to match your own code
+
+task run;
+run.doFirst {
+    println "To run the GUI:java -jar build/libs/a3.jar game.GameUI\nTo run tictactoe terminal: java -cp build/classes/java/main tictactoe.TictactoeTextUI\nTo run numerical tictactoe terminal: java -cp build/classes/java/main numericaltictactoe.NumericalTictactoeTextUI"
+}
+/*
+task echo;
+echo.doFirst {
+    println "To run the jar file:\njava -jar build/libs/A3.jar"
+    println "To run from class files:\n java -cp build/classes/java/main game.GameUI"
+}*/
+dependencies {
+    testImplementation('junit:junit:4.13')
+}
+
+
+// java -jar build/libs/a3.jar game.GameUI
+// java -jar build/libs/a3.jar tictactoe.TictactoeTextUI
+
+//  java -cp build/classes/java/main tictactoe.TictactoeTextUI
+
+// java -cp build/classes/java/main numericaltictactoe.NumericalTictactoeTextUI
